@@ -1,7 +1,7 @@
 Package: RStudioAddIns
 Type: Package
 Title: Collection of RStudio AddIns
-Version: 0.1.0
+Version: 0.2.0
 Author: amormachine
 Description: Collection of quick-and-easy RStudio AddIns designed to speed up data analysis workflows within RStudio
 License: MIT

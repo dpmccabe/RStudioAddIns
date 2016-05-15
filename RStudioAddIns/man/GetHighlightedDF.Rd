@@ -7,9 +7,12 @@
 GetHighlightedDF()
 }
 \value{
-Highlighted data frame
+Data frame
 }
 \description{
 GetHighlightedDF [Credit to: https://github.com/holstius]
+}
+\examples{
+None
 }
 
