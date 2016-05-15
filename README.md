@@ -28,7 +28,8 @@ Acknowledgements
 -----------
 It's an exciting time for data science and analytics.  Special thanks to the following groups for providing example code.
 
-[David Holstius](https://github.com/holstius) - [copydat Package](https://github.com/BAAQMD/copydat)
-[RStudio Team](https://www.rstudio.com/) - [AddIn Examples](https://github.com/rstudio/addinexamples)
+* [RStudio Team](https://www.rstudio.com/) - [AddIn Examples](https://github.com/rstudio/addinexamples)
+* [David Holstius](https://github.com/holstius) - [copydat Package](https://github.com/BAAQMD/copydat)
+
 
 
