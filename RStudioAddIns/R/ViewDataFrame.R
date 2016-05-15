@@ -28,3 +28,7 @@ ViewDataFrame <- function(df = GetHighlightedDF()) {
        title = "ViewDataFrame")
 
 }
+
+#TODO: Add function for copying data frame to clipboard [OS, windows, linux] (http://www.johndcook.com/blog/r_excel_clipboard/)
+#TODO: Add gif movies for example functions
+#TODO: Submit to list of maintained addins (https://github.com/daattali/addinslist#readme)
