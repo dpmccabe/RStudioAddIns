@@ -2,20 +2,17 @@
 % Please edit documentation in R/ViewDataFrame.R
 \name{ViewDataFrame}
 \alias{ViewDataFrame}
-\title{ViewDataFrame}
+\title{View Data Frame}
 \usage{
-ViewDataFrame(df)
+ViewDataFrame(df = GetHighlightedDF())
 }
 \arguments{
-\item{df}{- Data Frame}
+\item{df}{Data frame for rapid viewing}
 }
 \value{
 NA
 }
 \description{
-ViewDataFrame
-}
-\examples{
-NA
+View Data Frame
 }
 
