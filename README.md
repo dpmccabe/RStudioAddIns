@@ -7,8 +7,9 @@ What is it intended for?
 
 What does it currently contain?
 -----------
-`View Data Frame` allows you to highlight either a data frame, or code which generates a data frame, in the Source window
-of RStudio.  When bound to a key board shortcut, it facilitates rapidly viewing data.
+`View Data Frame` allows you to highlight either a data frame, or code which generates a data frame, in the Source window of RStudio.  When bound to a key board shortcut, it facilitates rapidly viewing data.
+
+!(RStudioAddIns/Examples/ExampleGif.gif)
 
 Installation
 ------------
