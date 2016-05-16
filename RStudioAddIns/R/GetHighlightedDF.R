@@ -1,4 +1,4 @@
-#' GetHighlightedDF [Credit to: https://github.com/holstius]
+#' GetHighlightedDF
 #'
 #' @return Data frame
 #'
@@ -8,21 +8,25 @@ GetHighlightedDF <- function() {
   # Extract Context From Active Document
   # Purpose: Extract highlighted text from source document
   context <- rstudioapi::getActiveDocumentContext()
-  df_name <- context$selection[[1]]$text
+  df.text <- context$selection[[1]]$text
+
 
   # Error Checking to Ensure Text is Selected
-  if (nchar(df_name) == 0) {
-    err_msg <- "Nothing is highlighted (in the RStudio source editor). Ensure a data frame is highlighted."
-    stop(err_msg, call. = FALSE)
+  if (nchar(df.text) == 0) {
+    stop("Nothing is highlighted in the RStudio Source Editor. Please ensure a data frame is highlighted.",
+         call. = FALSE)
   }
 
   # Execute Code
   # Purpose: Account for cases where highlighed text may not be a data frame, but code that generates one
   #          Example - iris %>% filter(Species == "setosa")
-  df <- eval(parse(text = df_name))
+  df <- eval(parse(text = df.text))
 
   # Final Preparation and Return
-  stopifnot(is.data.frame(df))
+  if (!is.data.frame(df)) {
+    stop("Must select data frame ...",
+         call. = FALSE)
+  }
   attr(df, "name") <- df
 
   return(df)

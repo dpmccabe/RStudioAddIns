@@ -2,7 +2,7 @@
 % Please edit documentation in R/GetHighlightedDF.R
 \name{GetHighlightedDF}
 \alias{GetHighlightedDF}
-\title{GetHighlightedDF [Credit to: https://github.com/holstius]}
+\title{GetHighlightedDF}
 \usage{
 GetHighlightedDF()
 }
@@ -10,7 +10,7 @@ GetHighlightedDF()
 Data frame
 }
 \description{
-GetHighlightedDF [Credit to: https://github.com/holstius]
+GetHighlightedDF
 }
 \examples{
 None
