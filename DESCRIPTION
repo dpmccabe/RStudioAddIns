@@ -1,0 +1,9 @@
+Package: RStudioAddIns
+Type: Package
+Title: Collection of RStudio AddIns
+Version: 0.2.1
+Author: amormachine
+Description: Collection of quick-and-easy RStudio AddIns designed to speed up data analysis workflows within RStudio
+License: MIT
+LazyData: TRUE
+RoxygenNote: 5.0.1

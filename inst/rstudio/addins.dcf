@@ -1,0 +1,4 @@
+Name: Quick View Data Frame
+Description: Opens the selected data frame in RStudio's View window
+Binding: QuickViewDataFrame
+Interactive: false
