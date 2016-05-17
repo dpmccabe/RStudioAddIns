@@ -18,7 +18,7 @@ Installation
 if (!requireNamespace("devtools", quietly = TRUE))
   install.packages("devtools")
 
-devtools::install_github("amormachine/RStudioAddIns")
+devtools::install_github("digital-dharma/RStudioAddIns")
 ```
 
 I'd like to contribute - How do I do so?
