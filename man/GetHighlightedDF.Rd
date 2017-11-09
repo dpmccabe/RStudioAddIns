@@ -7,7 +7,7 @@
 GetHighlightedDF()
 }
 \value{
-Data frame
+List
 }
 \description{
 GetHighlightedDF
@@ -15,4 +15,3 @@ GetHighlightedDF
 \examples{
 None
 }
-

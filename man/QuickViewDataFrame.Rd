@@ -4,7 +4,7 @@
 \alias{QuickViewDataFrame}
 \title{Quick View Data Frame}
 \usage{
-QuickViewDataFrame(df = GetHighlightedDF())
+QuickViewDataFrame(h = GetHighlightedDF())
 }
 \arguments{
 \item{df}{Data frame for rapid viewing in RStudio's View window}
@@ -29,4 +29,3 @@ library(dplyr) # - In the below example, note how you can also highlight
                # - and view code that generates a data frame.
 iris \%>\% filter(Species == 'setosa')
 }
-

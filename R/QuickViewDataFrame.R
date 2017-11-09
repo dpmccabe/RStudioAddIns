@@ -17,13 +17,9 @@
 #' library(dplyr) # - In the below example, note how you can also highlight
 #'                # - and view code that generates a data frame.
 #' iris %>% filter(Species == 'setosa')
+QuickViewDataFrame <- function(h = GetHighlightedDF()) {
 
-QuickViewDataFrame <- function(df = GetHighlightedDF()) {
-
-  View(x = df,
-       title = "QuickView")
+  View(x = h$df,
+       title = h$df.text)
 
 }
-
-#TODO: Add function for copying data frame to clipboard [OS, windows, linux] (http://www.johndcook.com/blog/r_excel_clipboard/)
-#TODO: Submit to list of maintained addins (https://github.com/daattali/addinslist#readme)

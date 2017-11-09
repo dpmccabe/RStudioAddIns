@@ -1,6 +1,6 @@
 #' GetHighlightedDF
 #'
-#' @return Data frame
+#' @return List
 #'
 #' @examples None
 GetHighlightedDF <- function() {
@@ -29,6 +29,6 @@ GetHighlightedDF <- function() {
   }
   attr(df, "name") <- df
 
-  return(df)
+  return(list(df = df, df.text = df.text))
 
 }

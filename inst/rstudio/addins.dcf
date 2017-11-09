@@ -2,3 +2,8 @@ Name: Quick View Data Frame
 Description: Opens the selected data frame in RStudio's View window
 Binding: QuickViewDataFrame
 Interactive: false
+
+Name: Quick Glimpse Data Frame
+Description: Calls `glimpse` on selected data frame
+Binding: QuickGlimpseDataFrame
+Interactive: false
