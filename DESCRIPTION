@@ -6,4 +6,5 @@ Author: digital-dharma
 Description: Collection of quick-and-easy RStudio AddIns designed to speed up data analysis workflows within RStudio
 License: MIT
 LazyData: TRUE
+Imports: dplyr
 RoxygenNote: 6.0.1
